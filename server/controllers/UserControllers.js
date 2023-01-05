@@ -1,6 +1,6 @@
 class UserControllers {
   async getUsers(req, res) {
-    res.status(200).send("getUsers");
+    res.status(200).json({ data: "data" });
   }
 
   async createUser(req, res) {

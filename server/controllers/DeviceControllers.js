@@ -1,6 +1,6 @@
 class DeviceControllers {
   async getDevice(req, res) {
-    res.status(200).send("getDevice");
+    res.status(200).json({ message: "success" });
   }
 
   async createDevice(req, res) {
